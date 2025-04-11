@@ -3,54 +3,59 @@ import numpy as np
 import os
 import common_function as cf
 # Configuración
-obs_errs = ['0.3', '1', '5', '25']
 ntemps = [1, 2, 3]
 labels = ['LETKF', 'LETKF-T2', 'LETKF-T3']
-base_path  = '/home/jorge.gacitua/experimentos/L96_multiple_experiments/data/LETKF/'
+nens = [10, 20, 40, 100]
+base_path  = '/home/jorge.gacitua/datosmunin/L96_multiple_experiments/data'
 output_dir = '/home/jorge.gacitua/experimentos/L96_multiple_experiments/figures'
-freq = 4
-den = 1.0
+freq = 12
+den = 0.5
 alpha = 2.0
-gec = '_GEC2'
-fig, axes = plt.subplots(len(obs_errs), len(ntemps), figsize=(12, 12), 
+ObseErr = '5'
+gec = '_NO_GEC'
+fig, axes = plt.subplots(len(nens), len(ntemps), figsize=(12, 12), 
                          sharex=False, sharey=False, 
                          gridspec_kw={'hspace': 0.25, 'wspace': 0.1})
 
 
 cbar_ax = fig.add_axes([0.92, 0.11, 0.02, 0.77])  # x, y, width, height
 
-vmin, vmax = 0, 2
+vmin, vmax = 0, 4
 panel_label_counter = 0
 
-for i, obs in enumerate(obs_errs):
-    for j, ntemp in enumerate(ntemps):
-        filename = f'LETKF_Paper_Nature_Freq{freq}_Den{den}_Type3_ObsErr{obs}_NTemp{ntemp}_alpha{alpha}{gec}.npz'
-        filepath = os.path.join(base_path, filename)
+for i, nen in enumerate(nens):
+    
+    filename = f'Tempered_LETKF_nens{str(nen).zfill(3)}_MultipleNature_Nature_Freq{freq}_Den{den}_Type3_ObsErr{ObseErr}.npz'
+    filepath = os.path.join(base_path, filename)
+    print(filepath)
+    
 
-        ax = axes[i, j]
+    if os.path.exists(filepath):
+        data = np.load(filepath, allow_pickle=True)
+        #results = data['results']
+        mult_inf_range = data['MultInfRange']#data['mult_inf_range']
+        loc_scale_range = data['LocScaleRange']#data['loc_scale_range']
+        
 
-        if os.path.exists(filepath):
-            data = np.load(filepath, allow_pickle=True)
-            results = data['results']
-            mult_inf_range = data['mult_inf_range']
-            loc_scale_range = data['loc_scale_range']
-            total_analysis_rmse = data['total_analysis_rmse']
-
+        for j, ntemp in enumerate(ntemps):
+            ax = axes[i, j]
+            total_analysis_rmse = data['total_analysis_rmse'][:,:,j,0,2]
             NormalEnd = np.zeros((len(mult_inf_range), len(loc_scale_range)))
             for ii in range(len(mult_inf_range)):
                 for jj in range(len(loc_scale_range)):
-                    NormalEnd[ii, jj] = 1 - results[ii * len(loc_scale_range) + jj]['NormalEnd']
-            NormalEnd = NormalEnd.astype(bool)
+                    NormalEnd[ii,jj] = np.any(np.isnan(data['XAMean'][ii,jj,j,0,2,:,:]))
+                    #NormalEnd[ii,jj,kk] = np.any(Output['XAMean'][ii,jj,kk,iens,ialpha,:,:]==0.)
+                    NormalEnd[ii,jj] = np.any(data['total_analysis_rmse'][ii,jj,j,0,2]>=7.)
+            NormalEnd=NormalEnd.astype(bool)
             total_analysis_rmse[NormalEnd] = np.nan
             total_analysis_rmse = cf.outlier_rmse_filter( total_analysis_rmse )
-
             min_rmse = np.nanmin(total_analysis_rmse)
             idx_min = np.where(total_analysis_rmse == min_rmse)
             best_mult_inf = mult_inf_range[idx_min[0][0]]
             best_loc_scale = loc_scale_range[idx_min[1][0]]
- 
+
             im = ax.pcolormesh(mult_inf_range, loc_scale_range, total_analysis_rmse.T, 
-                               vmin=vmin, vmax=vmax, cmap='YlGn',edgecolors='lightgray',linewidth=0.001)
+                                vmin=vmin, vmax=vmax, cmap='GnBu',edgecolors='lightgray',linewidth=0.001)
             ax.plot(best_mult_inf, best_loc_scale, 'k.', markersize=6)
 
             panel_label = rf"$\bf{{{chr(97 + panel_label_counter)}}}$"
@@ -62,8 +67,8 @@ for i, obs in enumerate(obs_errs):
             if i == len(obs_errs) - 1:
                 ax.set_xlabel('Multiplicative Inflation', fontsize=10)
 
-for i, obs in enumerate(obs_errs):
-    axes[i, 0].annotate(rf"$\bf{{\sigma^2_0 = {obs}}}$", xy=(-0.15, 0.5), xycoords='axes fraction',
+for i, nen in enumerate(nens):
+    axes[i, 0].annotate(rf"$\bf{{Nens = {nen}}}$", xy=(-0.15, 0.5), xycoords='axes fraction',
                         rotation=90, va='center', ha='right', fontsize=14, weight='bold')
 for j, t in enumerate(ntemps):
     axes[0, j].annotate(labels[j], xy=(0.5, 1.15), xycoords='axes fraction',
@@ -72,7 +77,7 @@ cbar = fig.colorbar(im, cax=cbar_ax)
 cbar.set_label('Total Analysis RMSE', fontsize=14)
 
 os.makedirs(output_dir, exist_ok=True)
-figname = f"Figure_AnalysisRMSE_Freq{freq}_Den{den}_Type3_ObsErr{obs}_NTemp{ntemp}{gec}"
+figname = f"Figure_Nens_AnalysisRMSE_Freq{freq}_Den{den}_Type3"
 output_pdf = os.path.join(output_dir, f"{figname}.pdf")
 output_png = os.path.join(output_dir, f"{figname}.png")
 

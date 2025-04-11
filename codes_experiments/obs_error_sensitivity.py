@@ -18,17 +18,18 @@ if len(sys.argv) < 3:
 
 obs_err = sys.argv[1]        # e.g., 'ObsErr0.3'
 ntemp = int(sys.argv[2])     # e.g., 1, 2, or 3
+nens = int(sys.argv[3])      # Number of ensemble members
+AlphaTempScale = int(sys.argv[4])  # e.g., 1, 2, or 3
 
 base_nature_prefix = 'Paper_Nature_Freq4_Den1.0_Type3'
 nature_name = f'{base_nature_prefix}_{obs_err}'
-AlphaTempScale = 2.0
-gec = '_GEC'
+gec = '_NOGEC'
 conf.GeneralConf['NatureName'] = nature_name
 conf.GeneralConf['ObsFile'] = f'/home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/{nature_name}.npz'
 conf.DAConf['NTemp'] = ntemp
 
 conf.DAConf['ExpLength'] = None                           #None use the full nature run experiment. Else use this length.
-conf.DAConf['NEns'] = 20                                  #Number of ensemble members
+conf.DAConf['NEns'] = nens                                #Number of ensemble members
 conf.DAConf['Twin'] = True                                #When True, model configuration will be replaced by the model configuration in the nature run.
 conf.DAConf['Freq'] = 4                                   #Assimilation frequency (in number of time steps)
 conf.DAConf['TSFreq'] = 4                                 #Intra window ensemble output frequency (for 4D Data assimilation)
@@ -38,10 +39,18 @@ conf.DAConf['BridgeParam']=0.0                            #Bridging parameter fo
 
 conf.DAConf['AddaptiveTemp']=False                        #Enable addaptive tempering time step in pseudo time.
 conf.DAConf['AlphaTempScale'] = AlphaTempScale            #Scale factor to obtain the tempering factors on each tempering iteration.
-conf.DAConf['GrossCheckFactor'] = 15.0                    #Optimized gross error check
-conf.DAConf['LowDbzPerThresh']  = 1.1                     #Optimized Low ref thresh.
 
-out_filename = f'/home/jorge.gacitua/experimentos/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}.npz'
+if obs_err == 'ObsErr0.3' or obs_err == 'ObsErr1':
+    conf.DAConf['GrossCheckFactor'] = 15.0
+    conf.DAConf['LowDbzPerThresh']  = 0.9
+else:
+    conf.DAConf['GrossCheckFactor'] = 1000.0
+    conf.DAConf['LowDbzPerThresh']  = 1.1
+
+conf.DAConf['GrossCheckFactor'] = 1000.0
+conf.DAConf['LowDbzPerThresh']  = 1.1
+
+out_filename = f'/home/jorge.gacitua/experimentos/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}.npz'
 
 print(f'\n=== Running experiment: {nature_name} with NTemp={ntemp} ===\n')
 
@@ -61,6 +70,7 @@ total_forecast_sprd = np.zeros((len(mult_inf_range), len(loc_scale_range)))
 iiters = 1
 for iinf, mult_inf in enumerate(mult_inf_range):
     for iloc, loc_scale in enumerate(loc_scale_range):
+
         print(f'iteration {iiters} of {len(mult_inf_range) * len(loc_scale_range)}')
         conf.DAConf['InfCoefs'] = np.array([mult_inf, 0.0, 0.0, 0.0, 0.0])
         conf.DAConf['LocScalesLETKF'] = np.array([loc_scale, -1.0])
