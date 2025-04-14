@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N obs_error_batch_alpha_den5
+#PBS -N obs_error_batch_n60
 #PBS -l nodes=1:ppn=64
 #PBS -j oe
 #PBS -o logs/obs_error_batch.log
@@ -10,14 +10,14 @@ cd /home/jorge.gacitua/experimentos/L96_multiple_experiments/codes_experiments/
 # Cargar entorno
 source /opt/load-libs.sh 3
 mkdir -p logs
-export OMP_NUM_THREADS=5
+export OMP_NUM_THREADS=20
 export PATH="/opt/intel/oneapi/intelpython/latest/bin:$PATH"
 
 #OBSERRS=("ObsErr0.3" "ObsErr1" "ObsErr5" "ObsErr25")
 OBSERRS=("ObsErr5")
 NTEMPS=(1 2 3)
-NALPHA=(0 1 2 3)
-NENS=(20)
+NALPHA=(2)
+NENS=(60)
 
 for NENS_VAL in "${NENS[@]}"; do
   for ALPHA in "${NALPHA[@]}"; do

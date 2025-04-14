@@ -24099,6 +24099,8 @@ Data assimilation cycle #  19600
 Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
+/opt/intel/oneapi/intelpython/latest/lib/python3.7/site-packages/numpy/core/_asarray.py:171: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return array(a, dtype, copy=False, order=order, subok=True)
 
 === Experiment completed and saved to /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/LETKF/LETKF_Paper_Nature_Freq4_Den1.0_Type3_ObsErr5_Nens20_NTemp3_alpha0_NOGEC.npz ===
 

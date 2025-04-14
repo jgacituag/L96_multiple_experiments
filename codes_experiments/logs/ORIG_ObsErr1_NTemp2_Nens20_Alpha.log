@@ -1,14 +1,14 @@
 
-=== Running experiment: Paper_Nature_Freq4_Den1.0_Type3_ObsErr5 with NTemp=3 ===
+=== Running experiment: Paper_Nature_Freq4_Den1.0_Type3_ObsErr1 with NTemp=2 ===
 
 iteration 1 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -209,13 +209,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 2 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -416,13 +416,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 3 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -623,13 +623,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 4 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -830,13 +830,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 5 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1037,13 +1037,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 6 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1244,13 +1244,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 7 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1451,13 +1451,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 8 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1658,13 +1658,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 9 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1865,13 +1865,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 10 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2072,13 +2072,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 11 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2279,13 +2279,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 12 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2486,13 +2486,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 13 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2693,13 +2693,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 14 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2900,13 +2900,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 15 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3107,13 +3107,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 16 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3314,13 +3314,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 17 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3521,13 +3521,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 18 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3728,13 +3728,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 19 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3935,13 +3935,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 20 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4142,13 +4142,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 21 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4349,13 +4349,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 22 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4556,13 +4556,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 23 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4763,13 +4763,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 24 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4970,13 +4970,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 25 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -5177,13 +5177,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 26 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -5384,13 +5384,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 27 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -5591,13 +5591,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 28 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -5798,13 +5798,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 29 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6005,13 +6005,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 30 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6212,13 +6212,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 31 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6419,13 +6419,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 32 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6626,13 +6626,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 33 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6833,13 +6833,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 34 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7040,13 +7040,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 35 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7247,13 +7247,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 36 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7454,13 +7454,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 37 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7661,13 +7661,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 38 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7868,13 +7868,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 39 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8075,13 +8075,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 40 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8282,13 +8282,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 41 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8489,13 +8489,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 42 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8696,13 +8696,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 43 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8903,13 +8903,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 44 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9110,13 +9110,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 45 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9317,13 +9317,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 46 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9524,13 +9524,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 47 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9731,13 +9731,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 48 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9938,13 +9938,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 49 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10145,13 +10145,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 50 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10352,13 +10352,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 51 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10559,13 +10559,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 52 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10766,13 +10766,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 53 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10973,13 +10973,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 54 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -11180,13 +11180,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 55 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -11387,13 +11387,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 56 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -11594,13 +11594,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 57 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -11801,13 +11801,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 58 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12008,13 +12008,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 59 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12215,13 +12215,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 60 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12422,13 +12422,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 61 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12629,13 +12629,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 62 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12836,13 +12836,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 63 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13043,13 +13043,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 64 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13250,13 +13250,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 65 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13457,13 +13457,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 66 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13664,13 +13664,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 67 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13871,13 +13871,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 68 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14078,13 +14078,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 69 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14285,13 +14285,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 70 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14492,13 +14492,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 71 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14699,13 +14699,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 72 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14906,13 +14906,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 73 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15113,13 +15113,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 74 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15320,13 +15320,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 75 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15527,13 +15527,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 76 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15734,13 +15734,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 77 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15941,13 +15941,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 78 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16148,13 +16148,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 79 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16355,13 +16355,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 80 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16562,13 +16562,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 81 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16769,13 +16769,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 82 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16976,13 +16976,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 83 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -17183,13 +17183,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 84 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -17390,13 +17390,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 85 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -17597,13 +17597,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 86 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -17804,13 +17804,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 87 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18011,13 +18011,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 88 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18218,13 +18218,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 89 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18425,13 +18425,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 90 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18632,13 +18632,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 91 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18839,13 +18839,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 92 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19046,13 +19046,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 93 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19253,13 +19253,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 94 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19460,13 +19460,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 95 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19667,13 +19667,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 96 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19874,13 +19874,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 97 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20081,13 +20081,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 98 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20288,13 +20288,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 99 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20495,13 +20495,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 100 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20702,13 +20702,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 101 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20909,13 +20909,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 102 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21116,13 +21116,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 103 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21323,13 +21323,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 104 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21530,13 +21530,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 105 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21737,13 +21737,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 106 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21944,13 +21944,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 107 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22151,13 +22151,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 108 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22358,13 +22358,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 109 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22565,13 +22565,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 110 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22772,13 +22772,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 111 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22979,13 +22979,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 112 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -23186,13 +23186,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 113 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -23393,13 +23393,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 114 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -23600,13 +23600,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 115 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -23807,13 +23807,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 116 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -24014,13 +24014,13 @@ Data assimilation cycle #  19700
 Data assimilation cycle #  19800
 Data assimilation cycle #  19900
 iteration 117 of 117
-Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
+Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr1.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.5 0.5]
+Dt pseudo times:  [0.5 0.5]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -24223,5 +24223,5 @@ Data assimilation cycle #  19900
 /opt/intel/oneapi/intelpython/latest/lib/python3.7/site-packages/numpy/core/_asarray.py:171: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
   return array(a, dtype, copy=False, order=order, subok=True)
 
-=== Experiment completed and saved to /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/LETKF/LETKF_Paper_Nature_Freq4_Den1.0_Type3_ObsErr5_Nens10_NTemp3_alpha2_NOGEC.npz ===
+=== Experiment completed and saved to /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/LETKF/ORIG2_LETKF_Paper_Nature_Freq4_Den1.0_Type3_ObsErr1_Nens20_NTemp2_GEC.npz ===
 

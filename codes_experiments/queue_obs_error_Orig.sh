@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N obs_error_batch_alpha_den5
+#PBS -N obs_error_batch_JR
 #PBS -l nodes=1:ppn=64
 #PBS -j oe
 #PBS -o logs/obs_error_batch.log
@@ -13,22 +13,18 @@ mkdir -p logs
 export OMP_NUM_THREADS=5
 export PATH="/opt/intel/oneapi/intelpython/latest/bin:$PATH"
 
-#OBSERRS=("ObsErr0.3" "ObsErr1" "ObsErr5" "ObsErr25")
-OBSERRS=("ObsErr5")
+OBSERRS=("ObsErr0.3" "ObsErr1" "ObsErr5" "ObsErr25")
 NTEMPS=(1 2 3)
-NALPHA=(0 1 2 3)
 NENS=(20)
 
 for NENS_VAL in "${NENS[@]}"; do
-  for ALPHA in "${NALPHA[@]}"; do
     for OBS in "${OBSERRS[@]}"; do
-      for TEMP in "${NTEMPS[@]}"; do
-        LOGFILE="logs/${OBS}_NTemp${TEMP}_Nens${NENS_VAL}_Alpha${ALPHA}.log"
-        echo "Running ${OBS} NTemp=$TEMP Nens=$NENS_VAL Alpha=$ALPHA"
-        python3 -u ./obs_error_sensitivity.py $OBS $TEMP $NENS_VAL $ALPHA > $LOGFILE 2>&1 &
-      done
+        for TEMP in "${NTEMPS[@]}"; do
+            LOGFILE="logs/ORIG_${OBS}_NTemp${TEMP}_Nens${NENS_VAL}_Alpha${ALPHA}.log"
+            echo "Running ${OBS} NTemp=$TEMP Nens=$NENS_VAL Alpha=$ALPHA"
+            python3 -u ./Orig_obs_error_sensitivity.py $OBS $TEMP $NENS_VAL> $LOGFILE 2>&1 &
+        done
     done
-  done
 done
 
 wait

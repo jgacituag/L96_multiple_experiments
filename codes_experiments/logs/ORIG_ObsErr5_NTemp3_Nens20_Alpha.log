@@ -7,8 +7,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -214,8 +214,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -421,8 +421,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -628,8 +628,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -835,8 +835,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1042,8 +1042,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1249,8 +1249,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1456,8 +1456,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1663,8 +1663,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -1870,8 +1870,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2077,8 +2077,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2284,8 +2284,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2491,8 +2491,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2698,8 +2698,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -2905,8 +2905,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3112,8 +3112,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3319,8 +3319,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3526,8 +3526,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3733,8 +3733,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -3940,8 +3940,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4147,8 +4147,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4354,8 +4354,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4561,8 +4561,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4768,8 +4768,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -4975,8 +4975,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -5182,8 +5182,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -5389,8 +5389,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -5596,8 +5596,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -5803,8 +5803,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6010,8 +6010,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6217,8 +6217,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6424,8 +6424,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6631,8 +6631,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -6838,8 +6838,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7045,8 +7045,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7252,8 +7252,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7459,8 +7459,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7666,8 +7666,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -7873,8 +7873,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8080,8 +8080,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8287,8 +8287,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8494,8 +8494,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8701,8 +8701,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -8908,8 +8908,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9115,8 +9115,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9322,8 +9322,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9529,8 +9529,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9736,8 +9736,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -9943,8 +9943,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10150,8 +10150,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10357,8 +10357,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10564,8 +10564,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10771,8 +10771,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -10978,8 +10978,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -11185,8 +11185,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -11392,8 +11392,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -11599,8 +11599,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -11806,8 +11806,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12013,8 +12013,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12220,8 +12220,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12427,8 +12427,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12634,8 +12634,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -12841,8 +12841,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13048,8 +13048,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13255,8 +13255,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13462,8 +13462,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13669,8 +13669,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -13876,8 +13876,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14083,8 +14083,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14290,8 +14290,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14497,8 +14497,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14704,8 +14704,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -14911,8 +14911,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15118,8 +15118,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15325,8 +15325,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15532,8 +15532,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15739,8 +15739,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -15946,8 +15946,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16153,8 +16153,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16360,8 +16360,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16567,8 +16567,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16774,8 +16774,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -16981,8 +16981,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -17188,8 +17188,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -17395,8 +17395,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -17602,8 +17602,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -17809,8 +17809,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18016,8 +18016,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18223,8 +18223,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18430,8 +18430,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18637,8 +18637,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -18844,8 +18844,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19051,8 +19051,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19258,8 +19258,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19465,8 +19465,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19672,8 +19672,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -19879,8 +19879,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20086,8 +20086,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20293,8 +20293,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20500,8 +20500,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20707,8 +20707,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -20914,8 +20914,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21121,8 +21121,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21328,8 +21328,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21535,8 +21535,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21742,8 +21742,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -21949,8 +21949,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22156,8 +22156,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22363,8 +22363,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22442,136 +22442,15 @@ Data assimilation cycle #  7400
 Data assimilation cycle #  7500
 Data assimilation cycle #  7600
 Data assimilation cycle #  7700
-Data assimilation cycle #  7800
-Data assimilation cycle #  7900
-Data assimilation cycle #  8000
-Data assimilation cycle #  8100
-Data assimilation cycle #  8200
-Data assimilation cycle #  8300
-Data assimilation cycle #  8400
-Data assimilation cycle #  8500
-Data assimilation cycle #  8600
-Data assimilation cycle #  8700
-Data assimilation cycle #  8800
-Data assimilation cycle #  8900
-Data assimilation cycle #  9000
-Data assimilation cycle #  9100
-Data assimilation cycle #  9200
-Data assimilation cycle #  9300
-Data assimilation cycle #  9400
-Data assimilation cycle #  9500
-Data assimilation cycle #  9600
-Data assimilation cycle #  9700
-Data assimilation cycle #  9800
-Data assimilation cycle #  9900
-Data assimilation cycle #  10000
-Data assimilation cycle #  10100
-Data assimilation cycle #  10200
-Data assimilation cycle #  10300
-Data assimilation cycle #  10400
-Data assimilation cycle #  10500
-Data assimilation cycle #  10600
-Data assimilation cycle #  10700
-Data assimilation cycle #  10800
-Data assimilation cycle #  10900
-Data assimilation cycle #  11000
-Data assimilation cycle #  11100
-Data assimilation cycle #  11200
-Data assimilation cycle #  11300
-Data assimilation cycle #  11400
-Data assimilation cycle #  11500
-Data assimilation cycle #  11600
-Data assimilation cycle #  11700
-Data assimilation cycle #  11800
-Data assimilation cycle #  11900
-Data assimilation cycle #  12000
-Data assimilation cycle #  12100
-Data assimilation cycle #  12200
-Data assimilation cycle #  12300
-Data assimilation cycle #  12400
-Data assimilation cycle #  12500
-Data assimilation cycle #  12600
-Data assimilation cycle #  12700
-Data assimilation cycle #  12800
-Data assimilation cycle #  12900
-Data assimilation cycle #  13000
-Data assimilation cycle #  13100
-Data assimilation cycle #  13200
-Data assimilation cycle #  13300
-Data assimilation cycle #  13400
-Data assimilation cycle #  13500
-Data assimilation cycle #  13600
-Data assimilation cycle #  13700
-Data assimilation cycle #  13800
-Data assimilation cycle #  13900
-Data assimilation cycle #  14000
-Data assimilation cycle #  14100
-Data assimilation cycle #  14200
-Data assimilation cycle #  14300
-Data assimilation cycle #  14400
-Data assimilation cycle #  14500
-Data assimilation cycle #  14600
-Data assimilation cycle #  14700
-Data assimilation cycle #  14800
-Data assimilation cycle #  14900
-Data assimilation cycle #  15000
-Data assimilation cycle #  15100
-Data assimilation cycle #  15200
-Data assimilation cycle #  15300
-Data assimilation cycle #  15400
-Data assimilation cycle #  15500
-Data assimilation cycle #  15600
-Data assimilation cycle #  15700
-Data assimilation cycle #  15800
-Data assimilation cycle #  15900
-Data assimilation cycle #  16000
-Data assimilation cycle #  16100
-Data assimilation cycle #  16200
-Data assimilation cycle #  16300
-Data assimilation cycle #  16400
-Data assimilation cycle #  16500
-Data assimilation cycle #  16600
-Data assimilation cycle #  16700
-Data assimilation cycle #  16800
-Data assimilation cycle #  16900
-Data assimilation cycle #  17000
-Data assimilation cycle #  17100
-Data assimilation cycle #  17200
-Data assimilation cycle #  17300
-Data assimilation cycle #  17400
-Data assimilation cycle #  17500
-Data assimilation cycle #  17600
-Data assimilation cycle #  17700
-Data assimilation cycle #  17800
-Data assimilation cycle #  17900
-Data assimilation cycle #  18000
-Data assimilation cycle #  18100
-Data assimilation cycle #  18200
-Data assimilation cycle #  18300
-Data assimilation cycle #  18400
-Data assimilation cycle #  18500
-Data assimilation cycle #  18600
-Data assimilation cycle #  18700
-Data assimilation cycle #  18800
-Data assimilation cycle #  18900
-Data assimilation cycle #  19000
-Data assimilation cycle #  19100
-Data assimilation cycle #  19200
-Data assimilation cycle #  19300
-Data assimilation cycle #  19400
-Data assimilation cycle #  19500
-Data assimilation cycle #  19600
-Data assimilation cycle #  19700
-Data assimilation cycle #  19800
-Data assimilation cycle #  19900
+Error: The forecast contains NaN or Inf, Iteration number : 7750  will dump some variables to a temporal file
 iteration 110 of 117
 Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/Paper_Nature_Freq4_Den1.0_Type3_ObsErr5.npz
 
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22777,8 +22656,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -22984,8 +22863,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -23191,8 +23070,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -23398,8 +23277,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -23605,8 +23484,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -23812,8 +23691,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -24019,8 +23898,8 @@ Reading observations from file  /home/jorge.gacitua/experimentos/L96_multiple_ex
 This is a TWIN experiment
 
 Using AlphaTempScale to compute tempering dt
-Tempering steps:  [0.97737992 0.01790134 0.00471874]
-Dt pseudo times:  [0.00380626 0.20781451 0.78837923]
+Tempering steps:  [0.33333333 0.33333333 0.33333333]
+Dt pseudo times:  [0.33333333 0.33333333 0.33333333]
 Data assimilation cycle #  100
 Data assimilation cycle #  200
 Data assimilation cycle #  300
@@ -24223,5 +24102,5 @@ Data assimilation cycle #  19900
 /opt/intel/oneapi/intelpython/latest/lib/python3.7/site-packages/numpy/core/_asarray.py:171: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
   return array(a, dtype, copy=False, order=order, subok=True)
 
-=== Experiment completed and saved to /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/LETKF/LETKF_Paper_Nature_Freq4_Den1.0_Type3_ObsErr5_Nens10_NTemp3_alpha2_NOGEC.npz ===
+=== Experiment completed and saved to /home/jorge.gacitua/experimentos/L96_multiple_experiments/data/LETKF/ORIG2_LETKF_Paper_Nature_Freq4_Den1.0_Type3_ObsErr5_Nens20_NTemp3_GEC.npz ===
 
