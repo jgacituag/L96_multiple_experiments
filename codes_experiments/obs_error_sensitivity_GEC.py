@@ -24,7 +24,7 @@ frec = 4
 den = 1.0
 base_nature_prefix = f'Paper_Nature_Freq{frec}_Den{den}_Type3'
 nature_name = f'{base_nature_prefix}_{obs_err}'
-gec = '_NOGEC'
+gec = '_GEC'
 conf.GeneralConf['NatureName'] = nature_name
 conf.GeneralConf['ObsFile'] = f'/home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/{nature_name}.npz'
 conf.DAConf['NTemp'] = ntemp
@@ -41,8 +41,12 @@ conf.DAConf['BridgeParam']=0.0                            #Bridging parameter fo
 conf.DAConf['AddaptiveTemp']=False                        #Enable addaptive tempering time step in pseudo time.
 conf.DAConf['AlphaTempScale'] = AlphaTempScale            #Scale factor to obtain the tempering factors on each tempering iteration.
 
-conf.DAConf['GrossCheckFactor'] = 1000.0
-conf.DAConf['LowDbzPerThresh']  = 1.1
+if obs_err == 'ObsErr0.3' or obs_err == 'ObsErr1':
+    conf.DAConf['GrossCheckFactor'] = 15.0
+    conf.DAConf['LowDbzPerThresh']  = 0.9
+else:
+    conf.DAConf['GrossCheckFactor'] = 1000.0
+    conf.DAConf['LowDbzPerThresh']  = 1.1
 
 out_filename = f'/home/jorge.gacitua/experimentos/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}.npz'
 

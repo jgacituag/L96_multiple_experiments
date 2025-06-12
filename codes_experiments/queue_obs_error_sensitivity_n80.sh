@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N obs_error_batch_n10
+#PBS -N obs_error_batch_n80
 #PBS -l nodes=1:ppn=120
 #PBS -j oe
 #PBS -o logs/obs_error_batch.log
@@ -17,7 +17,7 @@ OBSERRS=("ObsErr5")
 #OBSERRS=("ObsErr0.3" "ObsErr1" "ObsErr5" "ObsErr25")
 NTEMPS=(1 2 3) 
 NALPHA=(0 1 2 3)
-NENS=(10)
+NENS=(80)
 
 for NENS_VAL in "${NENS[@]}"; do
   for ALPHA in "${NALPHA[@]}"; do
