@@ -9,6 +9,7 @@ cd /home/jorge.gacitua/experimentos/L96_multiple_experiments/codes_experiments/
 
 # Cargar entorno
 source /opt/load-libs.sh 3
+
 mkdir -p logs
 export OMP_NUM_THREADS=10
 export PATH="/opt/intel/oneapi/intelpython/latest/bin:$PATH"
