@@ -7,7 +7,7 @@ import numpy as np
 GeneralConf=dict()
 
 GeneralConf['ExpName']='DefaultNature'                    #Experiment name.
-GeneralConf['DataPath']='/home/jorge.gacitua/experimentos/L96_multiple_experiments/data/Nature/'                  #Data output path
+GeneralConf['DataPath']='/home/jorge.gacitua/salidas/L96_multiple_experiments/data/Nature/'                  #Data output path
 GeneralConf['NatureFileName']='Nature' + GeneralConf['ExpName'] + '.npz'
 
 #=================================================================

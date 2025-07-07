@@ -1,8 +1,8 @@
 #!/bin/bash
-#PBS -N obs_error_batch_n20
-#PBS -l nodes=2:ppn=24
+#PBS -N den02_batch
+#PBS -l nodes=1:ppn=120
 #PBS -j oe
-#PBS -o /home/jorge.gacitua/salidas/L96_multiple_experiments/codes_experiments/logs/obs_error_batch.log
+#PBS -o logs/den03_batch.log
 #PBS -V
 
 cd /home/jorge.gacitua/salidas/L96_multiple_experiments/codes_experiments/
@@ -10,16 +10,16 @@ cd /home/jorge.gacitua/salidas/L96_multiple_experiments/codes_experiments/
 # Cargar entorno
 source /opt/load-libs.sh 3
 mkdir -p logs
-export OMP_NUM_THREADS=1
+export OMP_NUM_THREADS=10
 export PATH="/opt/intel/oneapi/intelpython/latest/bin:$PATH"
 
-#OBSERRS=("ObsErr5")
-OBSERRS=("ObsErr0.3" "ObsErr1" "ObsErr5" "ObsErr25")
-NTEMPS=(1 2 3) 
-NALPHA=(0 1 2 3)
-NENS=(20)
+OBSERRS=("ObsErr5")
+#OBSERRS=("ObsErr0.3" "ObsErr1" "ObsErr5" "ObsErr25")
+NTEMPS=(1 2 3 4 5 6 7 8 9 10) 
+NALPHA=(2)
+NENS=(10 20 40 60 80 100)
 frec=(4)
-den=(1.0)
+den=(0.2)
 
 for NENS_VAL in "${NENS[@]}"; do
   for ALPHA in "${NALPHA[@]}"; do
@@ -36,7 +36,6 @@ for NENS_VAL in "${NENS[@]}"; do
     done
   done
 done
-
 
 wait
 echo "=== All experiments finished ==="
