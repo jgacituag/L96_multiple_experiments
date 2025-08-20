@@ -28,7 +28,7 @@ for NENS_VAL in "${NENS[@]}"; do
         for FREC in "${frec[@]}"; do
           for DEN in "${den[@]}"; do
             LOGFILE="logs/${OBS}_NTemp${TEMP}_Nens${NENS_VAL}_Alpha${ALPHA}_FREC${FREC}_DEN${DEN}.log"
-            echo "Running ${OBS} NTemp=$TEMP Nens=$NENS_VAL Alpha=$ALPHA"
+            echo "Running ${OBS} NTemp=$TEMP Nens=$NENS_VAL Alpha=$ALPHA FREC=$FREC DEN=$DEN"
             python3 -u ./run_L96_ac40k.py $OBS $TEMP $NENS_VAL $ALPHA $FREC $DEN> $LOGFILE 2>&1 &
           done
         done
