@@ -16,8 +16,8 @@ export PATH="/opt/intel/oneapi/intelpython/latest/bin:$PATH"
 OBSERRS=("ObsErr5")
 #OBSERRS=("ObsErr0.3" "ObsErr1" "ObsErr5" "ObsErr25")
 NTEMPS=(1 2 3) 
-NALPHA=(0 1 2 3)
-NENS=(20)
+NALPHA=(2)
+NENS=(10 20 40 60 80 100)
 frec=(4)
 den=(1.0)
 
@@ -27,8 +27,8 @@ for NENS_VAL in "${NENS[@]}"; do
       for TEMP in "${NTEMPS[@]}"; do
         for FREC in "${frec[@]}"; do
           for DEN in "${den[@]}"; do
-            LOGFILE="logs/${OBS}_NTemp${TEMP}_Nens${NENS_VAL}_Alpha${ALPHA}_FREC${FREC}_DEN${DEN}.log"
-            echo "Running ${OBS} NTemp=$TEMP Nens=$NENS_VAL Alpha=$ALPHA"
+            LOGFILE="logs/${OBS}_NTemp${TEMP}_Nens${NENS_VAL}_Alpha${ALPHA}_FREC${FREC}_DEN${DEN}_40k.log"
+            echo "Running ${OBS} NTemp=$TEMP Nens=$NENS_VAL Alpha=$ALPHA FREC=$FREC DEN=$DEN"
             python3 -u ./run_L96_ac40k.py $OBS $TEMP $NENS_VAL $ALPHA $FREC $DEN> $LOGFILE 2>&1 &
           done
         done

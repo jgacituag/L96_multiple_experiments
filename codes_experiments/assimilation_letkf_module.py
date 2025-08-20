@@ -84,11 +84,12 @@ def assimilation_letkf_run( conf ) :
     
     if DAConf['ExpLength'] == None :
        DALength = int( max( ObsLoc[:,1] ) / DAConf['Freq'] )
+       print('Using the full nature run experiment length: ',DALength)
     else:
        DALength = DAConf['ExpLength']
        XNature = XNature[:,:,0:DALength+1]
        CNature = CNature[:,:,:,0:DALength+1] 
-  
+       print('Using the user defined experiment length: ',DALength)
 
     #Get the number of parameters
     NCoef=ModelConf['NCoef']

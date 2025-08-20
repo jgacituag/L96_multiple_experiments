@@ -22,17 +22,16 @@ nens = int(sys.argv[3])      # Number of ensemble members
 AlphaTempScale = int(sys.argv[4])  # e.g., 1, 2, or 3
 frec = int(sys.argv[5])
 den = f"{float(sys.argv[6]):.1f}"  # format to decimal with one decimal place, e.g., '1.0'
-base_nature_prefix = f'Paper_Nature_Freq{frec}_Den{den}_Type3'
+base_nature_prefix = f'Paper_Nature_Freq4_Den{den}_Type3'
 nature_name = f'{base_nature_prefix}_{obs_err}'
 gec = '_NOGEC'
 conf.GeneralConf['NatureName'] = nature_name
 conf.GeneralConf['ObsFile'] = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/Nature/{nature_name}.npz'
 conf.DAConf['NTemp'] = ntemp
-dafrec = 2
-conf.DAConf['ExpLength'] = None                           #None use the full nature run experiment. Else use this length.
+conf.DAConf['ExpLength'] = 40000                           #None use the full nature run experiment. Else use this length.
 conf.DAConf['NEns'] = nens                                #Number of ensemble members
 conf.DAConf['Twin'] = True                                #When True, model configuration will be replaced by the model configuration in the nature run.
-conf.DAConf['Freq'] = dafrec                                   #Assimilation frequency (in number of time steps)
+conf.DAConf['Freq'] = 4                                   #Assimilation frequency (in number of time steps)
 conf.DAConf['TSFreq'] = 4                                 #Intra window ensemble output frequency (for 4D Data assimilation)
 conf.DAConf['LocScalesLETKF']=np.array([3.0,-1.0])        #Localization scale is space and time (negative means no localization)
 conf.DAConf['LocScalesLETPF']=np.array([3.0,-1.0])        #Localization scale is space and time (negative means no localization)
@@ -44,7 +43,7 @@ conf.DAConf['AlphaTempScale'] = AlphaTempScale            #Scale factor to obtai
 conf.DAConf['GrossCheckFactor'] = 1000.0
 conf.DAConf['LowDbzPerThresh']  = 1.1
 
-out_filename = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}_dafrec{dafrec}.npz'
+out_filename = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}_40k.npz'
 
 print(f'\n=== Running experiment: {nature_name} with NTemp={ntemp} ===\n')
 
