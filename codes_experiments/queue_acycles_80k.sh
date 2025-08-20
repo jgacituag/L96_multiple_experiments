@@ -1,5 +1,6 @@
 #!/bin/bash
-#PBS -N acycles_40k
+#!/bin/bash
+#PBS -N acycles_80k
 #PBS -l nodes=1:ppn=120
 #PBS -j oe
 #PBS -o logs/obs_error_batch.log
@@ -11,7 +12,7 @@ cd /home/jorge.gacitua/salidas/L96_multiple_experiments/codes_experiments/
 source /opt/load-libs.sh 3
 mkdir -p logs
 export OMP_NUM_THREADS=10
-export PATH="/opt/intel/oneapi/intelpython/latest/bin:$PATH"<
+export PATH="/opt/intel/oneapi/intelpython/latest/bin:$PATH"
 
 OBSERRS=("ObsErr5")
 #OBSERRS=("ObsErr0.3" "ObsErr1" "ObsErr5" "ObsErr25")
@@ -27,9 +28,9 @@ for NENS_VAL in "${NENS[@]}"; do
       for TEMP in "${NTEMPS[@]}"; do
         for FREC in "${frec[@]}"; do
           for DEN in "${den[@]}"; do
-            LOGFILE="logs/${OBS}_NTemp${TEMP}_Nens${NENS_VAL}_Alpha${ALPHA}_FREC${FREC}_DEN${DEN}_40k.log"
+            LOGFILE="logs/${OBS}_NTemp${TEMP}_Nens${NENS_VAL}_Alpha${ALPHA}_FREC${FREC}_DEN${DEN}_80k.log"
             echo "Running ${OBS} NTemp=$TEMP Nens=$NENS_VAL Alpha=$ALPHA FREC=$FREC DEN=$DEN"
-            python3 -u ./run_L96_ac40k.py $OBS $TEMP $NENS_VAL $ALPHA $FREC $DEN> $LOGFILE 2>&1 &
+            python3 -u ./run_L96_ac80k.py $OBS $TEMP $NENS_VAL $ALPHA $FREC $DEN> $LOGFILE 2>&1 &
           done
         done
       done

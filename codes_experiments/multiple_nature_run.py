@@ -12,10 +12,10 @@ import default_nature_conf as conf
 # PARAMETERS THAT WILL BE ITERATED
 ####################################
 
-FreqList=[4,8]
-SpaceDensityList=[0.2,0.3]
+FreqList=[4]
+SpaceDensityList=[1.0]
 ObsOpe=[3]
-ObsError=[0.1,0.3,1,5,25] 
+ObsError=[0.3, 1, 5, 25] 
 conf.GeneralConf['RandomSeed'] = 10  #Fix random seed
 
 for MyFreq in FreqList :
