@@ -28,7 +28,7 @@ gec = '_NOGEC'
 conf.GeneralConf['NatureName'] = nature_name
 conf.GeneralConf['ObsFile'] = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/Nature/{nature_name}.npz'
 conf.DAConf['NTemp'] = ntemp
-conf.DAConf['ExpLength'] = 80000                           #None use the full nature run experiment. Else use this length.
+conf.DAConf['ExpLength'] = 40000                           #None use the full nature run experiment. Else use this length.
 conf.DAConf['NEns'] = nens                                #Number of ensemble members
 conf.DAConf['Twin'] = True                                #When True, model configuration will be replaced by the model configuration in the nature run.
 conf.DAConf['Freq'] = 4                                   #Assimilation frequency (in number of time steps)
@@ -43,7 +43,7 @@ conf.DAConf['AlphaTempScale'] = AlphaTempScale            #Scale factor to obtai
 conf.DAConf['GrossCheckFactor'] = 1000.0
 conf.DAConf['LowDbzPerThresh']  = 1.1
 
-out_filename = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}_80k_series.npz'
+out_filename = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}_40k_series.npz'
 
 print(f'\n=== Running experiment: {nature_name} with NTemp={ntemp} ===\n')
 
@@ -66,16 +66,20 @@ conf.DAConf['InfCoefs'] = np.array([mult_inf, 0.0, 0.0, 0.0, 0.0])
 conf.DAConf['LocScalesLETKF'] = np.array([loc_scale, -1.0])
 
 result = alm.assimilation_letkf_run(conf)
-#results.append(result)
 NormalEnd = result['NormalEnd']
 AlphaTempList.append(alm.get_temp_steps(ntemp, conf.DAConf['AlphaTempScale']))
 
-series_analysis_rmse[:] = result['XASRmse']
-series_forecast_rmse[:] = result['XFSRmse']
-series_analysis_sprd[:] = result['XASSprd']
-series_forecast_sprd[:] = result['XFSSprd']
-series_analysis_bias[:] = result['XASBias']
-series_forecast_bias[:] = result['XFSBias']
+# Extract full time series instead of only averages
+series_analysis_rmse = result['XATRmse']
+series_forecast_rmse = result['XFTRmse']
+series_analysis_bias = result['XATBias']
+series_forecast_bias = result['XFTBias']
+series_analysis_sprd = result['XATSprd']
+series_forecast_sprd = result['XATSprd']
+
+# Optionally save ensemble mean too
+analysis_mean = result['XAMean']  # (Nx, time)
+forecast_mean = result['XFMean']
 
 
 # Guardar resultados
@@ -88,7 +92,8 @@ np.savez_compressed(
     series_analysis_sprd=series_analysis_sprd,
     series_forecast_sprd=series_forecast_sprd,
     series_analysis_bias=series_analysis_bias,
-    series_forecast_bias=series_forecast_bias
+    series_forecast_bias=series_forecast_bias,
+    analysis_mean=analysis_mean,
+    forecast_mean=forecast_mean
 )
-
 print(f'\n=== Experiment completed and saved to {out_filename} ===\n')
