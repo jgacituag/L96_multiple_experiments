@@ -171,11 +171,6 @@ def assimilation_letkf_run(conf):
             CRF = CRFtmp[:, :, -1]
             RF = RFtmp[:, :, -1]
 
-            # strong multiplicative inflation of perturbations (about ensemble mean)
-            mean = np.mean(stateens, axis=1, keepdims=True)
-            pert = stateens - mean
-            stateens = mean + PreInflFact * pert
-
         # use the pre-conditioned ensemble as the initial analysis at it=0
         XA[:, :, 0] = np.copy(stateens)
         print("Pre-spinup finished")
@@ -184,6 +179,7 @@ def assimilation_letkf_run(conf):
     #  MAIN DATA ASSIMILATION LOOP :
     # =================================================================
     NormalEnd = True
+    SpinUp = 200  # Number of assimilation cycles that will be conisdered as spin up
 
     for it in range(1, DALength):
         if np.mod(it, 100) == 0:
@@ -339,7 +335,8 @@ def assimilation_letkf_run(conf):
                 # print('pre',np.std( stateens,axis=1) )
                 # Compute the tempering parameter.
                 temp_factor = (1.0 / dt_pseudo_time) / (1.0 - BridgeParam)
-
+                if it <= SpinUp:
+                    DAConf["InfCoefs"][0] = PreInflFact*DAConf["InfCoefs"][0]
                 if NObsWStep > 0:
                     stateens = das.da_letkf(
                         nx=Nx,
@@ -368,8 +365,6 @@ def assimilation_letkf_run(conf):
     #  DIAGNOSTICS  :
     # =================================================================
     output = dict()
-
-    SpinUp = 200  # Number of assimilation cycles that will be conisdered as spin up
 
     XASpread = np.std(XA, axis=1)
     XFSpread = np.std(XF, axis=1)

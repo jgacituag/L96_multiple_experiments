@@ -18,11 +18,11 @@ export PATH="/opt/intel/oneapi/intelpython/latest/bin:$PATH"
 OBSERRS=("ObsErr5")
 NTEMPS=(1 2 3) 
 NALPHA=(2)
-NENS=(20)
+NENS=(80)
 frec=(4)
 den=(1.0)
-PRESPINUP_CYCLES=(100 200 300)
-PRESPINUP_INFS=(1.0 1.5 2.0)
+PRESPINUP_CYCLES=(100)
+PRESPINUP_INFS=(1.0 1.2)
 
 for NENS_VAL in "${NENS[@]}"; do
   for ALPHA in "${NALPHA[@]}"; do

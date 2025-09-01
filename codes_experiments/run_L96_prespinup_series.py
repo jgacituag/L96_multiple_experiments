@@ -22,6 +22,8 @@ nens = int(sys.argv[3])      # Number of ensemble members
 AlphaTempScale = int(sys.argv[4])  # e.g., 1, 2, or 3
 frec = int(sys.argv[5])
 den = f"{float(sys.argv[6]):.1f}"  # format to decimal with one decimal place, e.g., '1.0'
+PreSpinupCycles = int(sys.argv[7])
+PreSpinupInflation = float(sys.argv[8])
 base_nature_prefix = f'Paper_Nature_Freq4_Den{den}_Type3'
 nature_name = f'{base_nature_prefix}_{obs_err}'
 gec = '_NOGEC'
@@ -42,49 +44,77 @@ conf.DAConf['AlphaTempScale'] = AlphaTempScale            #Scale factor to obtai
 
 conf.DAConf['GrossCheckFactor'] = 1000.0
 conf.DAConf['LowDbzPerThresh']  = 1.1
-PreSpinupCycles = int(sys.argv[7])
-PreSpinupInflation = f"{float(sys.argv[8]):.1f}"
+
 conf.DAConf['PreSpinupCycles']   =   PreSpinupCycles# Number of pre-spinup cycles
 conf.DAConf['PreSpinupInflation'] = PreSpinupInflation
-out_filename = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}_40k_Prespinup{PreSpinupCycles}_inf{PreSpinupInflation}.npz'
+out_filename = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}_40k_Prespinup{PreSpinupCycles}_inf{PreSpinupInflation:.1f}.npz'
 
 print(f'\n=== Running experiment: {nature_name} with NTemp={ntemp} ===\n')
 
 # Inicialización
 #results = []
 AlphaTempList = []
+mult_inf_range = np.arange(1.0, 1.6, 0.05)
+loc_scale_range = np.arange(0.5, 5.0, 0.5)
+series_analysis_rmse = np.zeros((len(mult_inf_range), len(loc_scale_range),conf.DAConf['ExpLength']))
+series_analysis_sprd = np.zeros((len(mult_inf_range), len(loc_scale_range),conf.DAConf['ExpLength']))
+series_analysis_bias = np.zeros((len(mult_inf_range), len(loc_scale_range),conf.DAConf['ExpLength']))
+series_forecast_rmse = np.zeros((len(mult_inf_range), len(loc_scale_range),conf.DAConf['ExpLength']))
+series_forecast_sprd = np.zeros((len(mult_inf_range), len(loc_scale_range),conf.DAConf['ExpLength']))
+series_forecast_bias = np.zeros((len(mult_inf_range), len(loc_scale_range),conf.DAConf['ExpLength']))
+total_analysis_rmse = np.zeros((len(mult_inf_range), len(loc_scale_range)))
+total_analysis_sprd = np.zeros((len(mult_inf_range), len(loc_scale_range)))
+total_analysis_bias = np.zeros((len(mult_inf_range), len(loc_scale_range)))
+total_forecast_rmse = np.zeros((len(mult_inf_range), len(loc_scale_range)))
+total_forecast_sprd = np.zeros((len(mult_inf_range), len(loc_scale_range)))
+total_forecast_bias = np.zeros((len(mult_inf_range), len(loc_scale_range)))
+analysis_mean = np.zeros((len(mult_inf_range), len(loc_scale_range), conf.ModelConf['nx'], conf.DAConf['ExpLength']))
+forecast_mean = np.zeros((len(mult_inf_range), len(loc_scale_range), conf.ModelConf['nx'], conf.DAConf['ExpLength']))
+NormalEnd = np.zeros((len(mult_inf_range), len(loc_scale_range)))
+## BEST Parameter for 80 members and error 5
+#mult_inf = 1.2
+#loc_scale = 4.0
 
-series_analysis_rmse = np.zeros((conf.DAConf['ExpLength']))
-series_analysis_sprd = np.zeros((conf.DAConf['ExpLength']))
-series_analysis_bias = np.zeros((conf.DAConf['ExpLength']))
-series_forecast_rmse = np.zeros((conf.DAConf['ExpLength']))
-series_forecast_sprd = np.zeros((conf.DAConf['ExpLength']))
-series_forecast_bias = np.zeros((conf.DAConf['ExpLength']))
-
-# BEST Parameter for 80 members and error 5
-mult_inf = 1.2
-loc_scale = 4.0
-
-conf.DAConf['InfCoefs'] = np.array([mult_inf, 0.0, 0.0, 0.0, 0.0])
-conf.DAConf['LocScalesLETKF'] = np.array([loc_scale, -1.0])
+#conf.DAConf['InfCoefs'] = np.array([mult_inf, 0.0, 0.0, 0.0, 0.0])
+#conf.DAConf['LocScalesLETKF'] = np.array([loc_scale, -1.0])
 
 
 
 result = alm.assimilation_letkf_run(conf)
 NormalEnd = result['NormalEnd']
-AlphaTempList.append(alm.get_temp_steps(ntemp, conf.DAConf['AlphaTempScale']))
 
-# Extract full time series instead of only averages
-series_analysis_rmse = result['XATRmse']
-series_forecast_rmse = result['XFTRmse']
-series_analysis_bias = result['XATBias']
-series_forecast_bias = result['XFTBias']
-series_analysis_sprd = result['XATSprd']
-series_forecast_sprd = result['XATSprd']
+iiters = 1
+for iinf, mult_inf in enumerate(mult_inf_range):
+    for iloc, loc_scale in enumerate(loc_scale_range):
 
-# Optionally save ensemble mean too
-analysis_mean = result['XAMean']  # (Nx, time)
-forecast_mean = result['XFMean']
+        print(f'iteration {iiters} of {len(mult_inf_range) * len(loc_scale_range)}')
+        conf.DAConf['InfCoefs'] = np.array([mult_inf, 0.0, 0.0, 0.0, 0.0])
+        conf.DAConf['LocScalesLETKF'] = np.array([loc_scale, -1.0])
+
+        result = alm.assimilation_letkf_run(conf)
+        #results.append(result)
+        NormalEnd[iinf, iloc] = result['NormalEnd']
+        AlphaTempList.append(alm.get_temp_steps(ntemp, conf.DAConf['AlphaTempScale']))
+
+        total_analysis_rmse[iinf, iloc] = np.mean(result['XASRmse'])
+        total_forecast_rmse[iinf, iloc] = np.mean(result['XFSRmse'])
+        total_analysis_sprd[iinf, iloc] = np.mean(result['XASSprd'])
+        total_forecast_sprd[iinf, iloc] = np.mean(result['XFSSprd'])
+        total_analysis_bias[iinf, iloc] = np.mean(result['XASBias'])
+        total_forecast_bias[iinf, iloc] = np.mean(result['XFSBias'])
+        # Extract full time series instead of only averages
+        series_analysis_rmse[iinf, iloc,:] = result['XATRmse']
+        series_forecast_rmse[iinf, iloc,:] = result['XFTRmse']
+        series_analysis_bias[iinf, iloc,:] = result['XATBias']
+        series_forecast_bias[iinf, iloc,:] = result['XFTBias']
+        series_analysis_sprd[iinf, iloc,:] = result['XATSprd']
+        series_forecast_sprd[iinf, iloc,:] = result['XATSprd']
+
+        # Optionally save ensemble mean too
+        analysis_mean[iinf, iloc,:] = result['XAMean']  # (Nx, time)
+        forecast_mean[iinf, iloc,:] = result['XFMean']
+        iiters += 1
+
 
 
 # Guardar resultados
@@ -98,6 +128,12 @@ np.savez_compressed(
     series_forecast_sprd=series_forecast_sprd,
     series_analysis_bias=series_analysis_bias,
     series_forecast_bias=series_forecast_bias,
+    total_analysis_rmse=total_analysis_rmse,
+    total_forecast_rmse=total_forecast_rmse,
+    total_analysis_sprd=total_analysis_sprd,
+    total_forecast_sprd=total_forecast_sprd,
+    total_analysis_bias=total_analysis_bias,
+    total_forecast_bias=total_forecast_bias,
     analysis_mean=analysis_mean,
     forecast_mean=forecast_mean
 )
