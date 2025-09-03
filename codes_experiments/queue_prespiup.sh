@@ -1,7 +1,7 @@
 #!/bin/bash
 #!/bin/bash
 #PBS -N 80k_series
-#PBS -l nodes=1:ppn=48
+#PBS -l nodes=1:ppn=40
 #PBS -j oe
 #PBS -o logs/obs_error_batch.log
 #PBS -V
@@ -12,7 +12,7 @@ cd /home/jorge.gacitua/salidas/L96_multiple_experiments/codes_experiments/
 source /opt/load-libs.sh 3
 mkdir -p logs
 
-export OMP_NUM_THREADS=48
+export OMP_NUM_THREADS=40
 export PATH="/opt/intel/oneapi/intelpython/latest/bin:$PATH"
 
 OBSERRS=("ObsErr5")
@@ -21,8 +21,8 @@ NALPHA=(2)
 NENS=(80)
 frec=(4)
 den=(1.0)
-PRESPINUP_CYCLES=(100)
-PRESPINUP_INFS=(1.0 1.2)
+PRESPINUP_CYCLES=(100 200)
+PRESPINUP_INFS=(1.0 1.1 1.2)
 
 for NENS_VAL in "${NENS[@]}"; do
   for ALPHA in "${NALPHA[@]}"; do

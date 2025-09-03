@@ -335,8 +335,9 @@ def assimilation_letkf_run(conf):
                 # print('pre',np.std( stateens,axis=1) )
                 # Compute the tempering parameter.
                 temp_factor = (1.0 / dt_pseudo_time) / (1.0 - BridgeParam)
+                InfCoefs = np.copy(DAConf["InfCoefs"])
                 if it <= SpinUp:
-                    DAConf["InfCoefs"][0] = PreInflFact*DAConf["InfCoefs"][0]
+                    InfCoefs[0] = PreInflFact*(InfCoefs[0]-1) + 1.0
                 if NObsWStep > 0:
                     stateens = das.da_letkf(
                         nx=Nx,
@@ -352,7 +353,7 @@ def assimilation_letkf_run(conf):
                         ofens=YFStep,
                         rdiag=ObsErrorWStep,
                         loc_scale=DAConf["LocScalesLETKF"],
-                        inf_coef=DAConf["InfCoefs"][0:5],
+                        inf_coef=InfCoefs,
                         update_smooth_coef=0.0,
                         temp_factor=temp_factor)[:, :, 0, 0]
 
@@ -391,6 +392,7 @@ def assimilation_letkf_run(conf):
     output["XFSSprd"] = np.mean(XFSpread, 1)
 
     output["XATSprd"] = np.mean(XASpread, 0)
+    output["XFTSprd"] = np.mean(XFSpread, 0)
 
     output["XASBias"] = np.mean(XAMean[:, SpinUp:DALength] - XNature[:, 0, SpinUp:DALength], axis=1)
     output["XFSBias"] = np.mean(XFMean[:, SpinUp:DALength] - XNature[:, 0, SpinUp:DALength], axis=1)

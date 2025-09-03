@@ -30,7 +30,7 @@ gec = '_NOGEC'
 conf.GeneralConf['NatureName'] = nature_name
 conf.GeneralConf['ObsFile'] = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/Nature/{nature_name}.npz'
 conf.DAConf['NTemp'] = ntemp
-conf.DAConf['ExpLength'] = 40000                           #None use the full nature run experiment. Else use this length.
+conf.DAConf['ExpLength'] = 700                           #None use the full nature run experiment. Else use this length.
 conf.DAConf['NEns'] = nens                                #Number of ensemble members
 conf.DAConf['Twin'] = True                                #When True, model configuration will be replaced by the model configuration in the nature run.
 conf.DAConf['Freq'] = 4                                   #Assimilation frequency (in number of time steps)
@@ -47,7 +47,7 @@ conf.DAConf['LowDbzPerThresh']  = 1.1
 
 conf.DAConf['PreSpinupCycles']   =   PreSpinupCycles# Number of pre-spinup cycles
 conf.DAConf['PreSpinupInflation'] = PreSpinupInflation
-out_filename = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}_40k_Prespinup{PreSpinupCycles}_inf{PreSpinupInflation:.1f}.npz'
+out_filename = f'/home/jorge.gacitua/salidas/L96_multiple_experiments/data/LETKF/LETKF_{nature_name}_Nens{nens}_NTemp{ntemp}_alpha{AlphaTempScale}{gec}_500_Prespinup{PreSpinupCycles}_inf{PreSpinupInflation:.1f}.npz'
 
 print(f'\n=== Running experiment: {nature_name} with NTemp={ntemp} ===\n')
 
@@ -71,17 +71,6 @@ total_forecast_bias = np.zeros((len(mult_inf_range), len(loc_scale_range)))
 analysis_mean = np.zeros((len(mult_inf_range), len(loc_scale_range), conf.ModelConf['nx'], conf.DAConf['ExpLength']))
 forecast_mean = np.zeros((len(mult_inf_range), len(loc_scale_range), conf.ModelConf['nx'], conf.DAConf['ExpLength']))
 NormalEnd = np.zeros((len(mult_inf_range), len(loc_scale_range)))
-## BEST Parameter for 80 members and error 5
-#mult_inf = 1.2
-#loc_scale = 4.0
-
-#conf.DAConf['InfCoefs'] = np.array([mult_inf, 0.0, 0.0, 0.0, 0.0])
-#conf.DAConf['LocScalesLETKF'] = np.array([loc_scale, -1.0])
-
-
-
-result = alm.assimilation_letkf_run(conf)
-NormalEnd = result['NormalEnd']
 
 iiters = 1
 for iinf, mult_inf in enumerate(mult_inf_range):
@@ -108,11 +97,11 @@ for iinf, mult_inf in enumerate(mult_inf_range):
         series_analysis_bias[iinf, iloc,:] = result['XATBias']
         series_forecast_bias[iinf, iloc,:] = result['XFTBias']
         series_analysis_sprd[iinf, iloc,:] = result['XATSprd']
-        series_forecast_sprd[iinf, iloc,:] = result['XATSprd']
+        series_forecast_sprd[iinf, iloc,:] = result['XFTSprd']
 
         # Optionally save ensemble mean too
-        analysis_mean[iinf, iloc,:] = result['XAMean']  # (Nx, time)
-        forecast_mean[iinf, iloc,:] = result['XFMean']
+        analysis_mean[iinf, iloc,:,:] = result['XAMean']  # (Nx, time)
+        forecast_mean[iinf, iloc,:,:] = result['XFMean']
         iiters += 1
 
 
