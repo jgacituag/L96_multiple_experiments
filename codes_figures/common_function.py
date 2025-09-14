@@ -200,7 +200,56 @@ def outlier_rmse_filter( rmse ) :
                 
     return rmse
 
+def smooth_filter(arr, size=5):
+    """
+    Apply a strict nanmean filter to a 2D array:
+    - For each point, if more than one of the neighbors is NaN, return NaN.
+    - Otherwise, return the nanmean of neighbors.
+    
+    Parameters:
+        arr: 2D numpy array
+        size: int, either 5 (cross-shaped) or 9 (3x3 square)
+    
+    Returns:
+        2D numpy array with the filter applied.
+    """
+    arr = np.asarray(arr)
+    if arr.ndim != 2:
+        raise ValueError("Input array must be 2-dimensional.")
+    if size not in (5, 9):
+        raise ValueError("Size must be 5 or 9.")
 
+    result = arr.copy()
+    nrows, ncols = arr.shape
+
+    for i in range(nrows):
+        for j in range(ncols):
+            if np.isnan(arr[i, j]):
+                continue
+            neighbors = []
+            if size == 0:
+                return arr
+            if size == 5:
+                coords = [(i, j),
+                          (i-1, j), (i+1, j),
+                          (i, j-1), (i, j+1)]
+            elif size == 9:
+                coords = [(ii, jj)
+                          for ii in range(i-1, i+2)
+                          for jj in range(j-1, j+2)]
+
+            for ii, jj in coords:
+                if 0 <= ii < nrows and 0 <= jj < ncols:   #A way to deal with the borders
+                    neighbors.append(arr[ii, jj])
+                else:
+                    neighbors.append(np.nan)
+
+            if np.isnan(neighbors).sum() > 2:
+                result[i, j] = np.nan
+            else:
+                result[i, j] = np.nanmean(neighbors)
+
+    return result
 
     
 
